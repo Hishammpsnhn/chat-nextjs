@@ -1,5 +1,7 @@
 // pages/personal.js
 import React, { useState } from 'react';
+import { io } from "socket.io-client";
+
 
 export default function Personal() {
 //   const [messages, setMessages] = useState([]);
